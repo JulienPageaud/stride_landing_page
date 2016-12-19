@@ -3,7 +3,7 @@
   max-width: 600px;
 }
 .carousel-inner {
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
 .carousel-image-div {
   position: relative;
@@ -26,4 +26,10 @@
 }
 .carousel-indicators .active {
   background-color: rgb(170,170,170);
+}
+#financial-inclusion-carousel .carousel-inner {
+  padding-bottom: 100px;
+}
+#looking-bright {
+  color: #77C9D4;
 }
