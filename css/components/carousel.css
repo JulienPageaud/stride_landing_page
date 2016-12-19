@@ -1,0 +1,19 @@
+.carousel-image {
+  max-height: 1000px;
+  max-width: 600px;
+}
+.carousel-control {
+  background-image: none !important;
+}
+.carousel-control span {
+  color: rgba(200,200,200,0.7);
+}
+.carousel-caption {
+  margin-top: 20px;
+}
+.carousel-indicators > li {
+  border: 1px solid black;
+}
+.carousel-indicators .active {
+  background-color: rgb(170,170,170);
+}

@@ -2,6 +2,12 @@
   font-size: 50px;
   margin-bottom: 5px;
 }
+.brand-heading span {
+  opacity: 0.75;
+}
+.brand-heading strong{
+  opacity: 0.9;
+}
 .calls-to-action{
   display: flex;
   flex-direction: column;
@@ -17,11 +23,20 @@
 .brand-heading {
   text-align: left !important;
 }
+#down-arrow{
+  position: absolute;
+  bottom: 150px;
+}
 #blurred-bar {
   margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 20px;
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   width: 100%;
+  background: url(../../img/banner-background-blurred.jpg) no-repeat;
+  background-position: bottom left;
+  background-size: cover;
 }
 #blurred-bar p {
   margin-bottom: 5px;
@@ -29,3 +44,4 @@
 .partner-logos {
   height: 40px;
 }
+
