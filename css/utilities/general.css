@@ -3,6 +3,11 @@
   justify-content: space-around;
   align-items: center;
 }
+.flexbox-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .flexbox-vertical{
   display: flex;
   flex-direction: column;
@@ -12,4 +17,6 @@
 .margin-left-right{
   margin: 0 50px;
 }
-
+.container, .row {
+  max-width: 100%;
+}

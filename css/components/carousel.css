@@ -30,14 +30,15 @@
 #financial-inclusion-carousel .carousel-inner {
   padding-bottom: 100px;
 }
-#looking-bright {
+p#looking-bright {
+  margin-top: 10px;
   color: #77C9D4;
 }
 .item {
   margin: 0 auto;
 }
 .item .outstanding-loans-slide {
-  min-height: 210px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;

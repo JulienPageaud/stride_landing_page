@@ -251,13 +251,12 @@ a:focus {
   }
 }
 .btn {
-  text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .btn-default {
   border: 1px solid #42DCA3;
@@ -290,10 +289,21 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 50px 0;
+  padding: 30px 0;
+  background: #015249;
+  color: #A5A5AF;
+  text-align: left;
 }
 footer p {
   margin: 0;
+  font-size: 15px;
+}
+footer ul {
+  padding-left: 0;
+}
+footer li {
+  margin-left: 0;
+  list-style: none;
 }
 ::-moz-selection {
   text-shadow: none;

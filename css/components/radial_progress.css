@@ -7,7 +7,7 @@
   position: relative;
 }
 .progress-pie-chart.gt-50 {
-  background-color: #81CE97;
+  background-color: #57BC90;
 }
 
 .ppc-progress {
@@ -29,7 +29,7 @@
   width: 200px;
   height: 200px;
   clip: rect(0, 100px, 200px, 0);
-  background: #81CE97;
+  background: #57BC90;
   transform: rotate(60deg);
 }
 .gt-50 .ppc-progress {
@@ -55,7 +55,7 @@
 .ppc-percents span {
   display: block;
   font-size: 2em;
-  color: #81CE97;
+  color: #57BC90;
 }
 
 .pcc-percents-wrapper {
@@ -74,15 +74,8 @@ body {
 .progress-pie-chart.blue.gt-50, .progress-pie-chart.blue.ppc-progress-fill {
   background-color: #77C9D4;
 }
-
-.progress-pie-chart-green.gt-50-green, .progress-pie-chart-green.ppc-progress-fill-green {
-  background-color: #015249;
-}
 .progress-pie-chart.blue .ppc-percents span {
   color: #77C9D4;
-}
-.progress-pie-chart-green .ppc-percents-green span {
-  color: #015249;
 }
 h5.dark-green {
   color: #015249;

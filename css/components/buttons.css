@@ -7,3 +7,14 @@
   color: rgb(150,150,150);
   border: 2px solid rgb(170,170,170);
 }
+.btn-green {
+  background-color: #015249;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: color 0.2s;
+}
+.btn-green:hover {
+  background-color: #57BC90;
+  color: white;
+}

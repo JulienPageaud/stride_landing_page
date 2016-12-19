@@ -50,12 +50,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <!-- Hidden li included to remove active class from about link when scrolled up past how-it-works section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#features">Features</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#how-it-works">How it works</a>
@@ -64,7 +61,10 @@
                         <a class="page-scroll" href="#footprint">Footprint</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -240,7 +240,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <div class="progress-pie-chart" data-percent="86">
+              <div class="progress-pie-chart default" data-percent="86">
                 <div class="ppc-progress">
                   <div class="ppc-progress-fill"></div>
                 </div>
@@ -262,11 +262,11 @@
                     <div class="pcc-percents-wrapper">
                       <h4 class="radial-header">Credit score</h4>
                       <span></span>
+                      <p id="looking-bright">Looking bright</p>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-caption">
-                  <span id="looking-bright">Looking bright</span>
                 </div>
               </div>
 
@@ -295,12 +295,12 @@
       </section>
     </div>
 
-    <!-- Why Stride? Section -->
+    <!-- Features Section -->
     <div class="wrapper-green">
       <div class="white-arrow-top">
         <i class="fa fa-caret-down" aria-hidden="true"></i>
       </div>
-      <section id="why-stride" class="container content-section text-center">
+      <section id="features" class="container content-section text-center">
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
             <h2>Why Stride?</h2>
@@ -331,38 +331,53 @@
         </div>
       </section>
     </div>
+
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Map Section -->
-    <div id="map"></div>
+    <div class="wrapper-white">
+      <section id="contact" class="container content-section text-center">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <h2>Discover what Stride can do for you</h2>
+                  <p>We actively participate in improving financial inclusion around the world. Please don't hesitate to contact us to find out how we can help you.</p>
+                  <p><a href="mailto:contact@strideworld.com" class="btn btn-green">Contact us</a>
+                  </p>
+              </div>
+          </div>
+      </section>
+    </div>
 
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+    <footer class="flexbox">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="site-map">
+              <div class="footer-section">
+              <h5>Site map</h5>
+                <ul>
+                  <li>Contact</li>
+                  <li>Careers</li>
+                  <li>Privacy Policy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="footer-section">
+              <h5>Find us</h5>
+              <p>Stride</p>
+              <p>Paradise Avenue</p>
+              <p>Best place in the world</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="footer-section">
+              <p>Stride has a strict policy on data utilisation. Stride respects the privacy policy and does not sell user data. The data is only used to provide scoring information.</p>
+              <p>Copyright &copy; Stride 2016</p>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- jQuery -->

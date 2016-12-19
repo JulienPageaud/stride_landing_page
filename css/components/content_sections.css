@@ -1,9 +1,11 @@
 .wrapper-white {
   background-color: white;
   position: relative;
-}
-#how-it-works {
   color: black;
+}
+.wrapper-green {
+  background: #57BC90;
+  position: relative;
 }
 .wrapper-footprint-section {
   background: url('../../img/pexels-photo.jpg') no-repeat top scroll;
@@ -18,28 +20,27 @@
     min-height: 95vh;
   }
 }
+#footprint h2 {
+  color: #A5A5AF;
+  text-shadow: 0 1px rgb(180,180,180);
+}
 .footprint-text{
-  background-color: rgba(170,170,170,0.4);
+  background-color: rgba(165,165,175,0.7);
   padding: 10px;
   border-radius: 3px;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 .footprint-text p {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 0;
 }
-#financial-inclusion {
-  color: rgb(210,210,210);
-}
-#financial-inclusion p {
+#financial-inclusion p, #contact p {
   color: rgb(180,180,180);
-}
-
-.wrapper-green {
-  background: #57BC90;
-  position: relative;
 }
 .features p {
   font-size: 15px;
+}
+.content-section h2 {
+  color: #015249;
 }
