@@ -3,6 +3,13 @@
   justify-content: space-around;
   align-items: center;
 }
+.flexbox-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .margin-left-right{
   margin: 0 50px;
 }
+
