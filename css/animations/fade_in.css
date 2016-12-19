@@ -1,0 +1,20 @@
+.fadeIn {
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+
+  -webkit-transition-timing-function: ease-out; /* Safari and Chrome */
+  transition-timing-function: ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

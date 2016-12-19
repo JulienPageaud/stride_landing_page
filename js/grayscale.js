@@ -29,6 +29,7 @@ $(document).ready(function(){
 // Animations
 $window = $(window)
 $features = $('.feature')
+$carousels = $('.carousel')
 $window.on('scroll', check_if_in_view);
 
 function check_if_in_view() {
@@ -38,14 +39,25 @@ function check_if_in_view() {
 
   $features.each(function () {
     var $this = $(this)
-    var elementHeight = $this.outerHeight();
-    var elementTop = $this.offset().top;
-    var elementBottom = (elementTop + elementHeight);
+    var thisHeight = $this.outerHeight();
+    var thisTop = $this.offset().top;
+    var thisBottom = (thisTop + thisHeight);
 
-    if ( (elementBottom >= topOfWindow) && (elementTop <= bottomOfWindow)) {
+    if ((thisBottom >= topOfWindow) && (thisTop <= bottomOfWindow)) {
       $this.addClass('slideUp');
     }
   });
+
+  // $carousels.each(function() {
+  //   var $element = $(this)
+  //   var elementHeight = $element.outerHeight();
+  //   var elementTop = $element.offset().top;
+  //   var elementBottom = (elementTop + elementHeight);
+
+  //   if ((elementTop <= bottomOfWindow && elementBottom >= topOfWindow)) {
+  //     $element.addClass('fadeIn');
+  //   }
+  // });
 };
 
 // jQuery to collapse the navbar on scroll

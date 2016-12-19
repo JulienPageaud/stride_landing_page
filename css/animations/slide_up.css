@@ -1,6 +1,6 @@
 .slideUp {
   animation-duration: 1.5s;
-  -webkite-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
 
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
