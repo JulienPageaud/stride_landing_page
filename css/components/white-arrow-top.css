@@ -1,0 +1,11 @@
+.white-arrow-top{
+  position: absolute;
+  top: -60px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.white-arrow-top i {
+  color: white;
+  font-size: 150px;
+}
