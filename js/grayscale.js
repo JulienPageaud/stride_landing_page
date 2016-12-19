@@ -22,10 +22,31 @@ $(document).ready(function(){
   if (percentBlue > 50) {
     ppcBlue.addClass('gt-50');
   }
-  console.log(ppcBlue, percentBlue, degBlue)
   $('.progress-pie-chart.blue .ppc-progress-fill').css('transform','rotate('+ degBlue +'deg)');
   $('.progress-pie-chart.blue .ppc-percents span').html(percentBlue+'%');
 });
+
+// Animations
+$window = $(window)
+$features = $('.feature')
+$window.on('scroll', check_if_in_view);
+
+function check_if_in_view() {
+  var windowHeight = $window.height();
+  var topOfWindow = $window.scrollTop();
+  var bottomOfWindow = (topOfWindow + windowHeight);
+
+  $features.each(function () {
+    var $this = $(this)
+    var elementHeight = $this.outerHeight();
+    var elementTop = $this.offset().top;
+    var elementBottom = (elementTop + elementHeight);
+
+    if ( (elementBottom >= topOfWindow) && (elementTop <= bottomOfWindow)) {
+      $this.addClass('slideUp');
+    }
+  });
+};
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {

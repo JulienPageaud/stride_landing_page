@@ -11,13 +11,13 @@
   background: url('../../img/pexels-photo.jpg') no-repeat top scroll;
   position: relative;
   background-size: cover;
-  min-height: 500px;
+  min-height: 100vh;
 }
 @media (min-width: 780px) {
   .wrapper-footprint-section{
     background-size: cover;
     position: relative;
-    min-height: 95vh;
+    min-height: 100vh;
   }
 }
 #footprint h2 {

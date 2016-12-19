@@ -1,4 +1,9 @@
+/* Utilities */
+
 @import url('./utilities/general.css');
+
+/* Components*/
+
 @import url('./components/logo.css');
 @import url('./components/banner.css');
 @import url('./components/buttons.css');
@@ -6,3 +11,7 @@
 @import url('./components/carousel.css');
 @import url('./components/white-arrow-top.css');
 @import url('./components/radial_progress.css');
+
+/* Animations */
+
+@import url('./animations/slide_up.css')
