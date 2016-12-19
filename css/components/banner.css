@@ -1,0 +1,31 @@
+.banner-icons{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.calls-to-action{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+.calls-to-action > a {
+  color: white;
+}
+.banner-text {
+  font-weight: bolder;
+}
+.brand-heading {
+  text-align: left !important;
+}
+#blurred-bar {
+  margin-top: 15px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+#blurred-bar p {
+  margin-bottom: 5px;
+}
+.partner-logos {
+  height: 40px;
+}

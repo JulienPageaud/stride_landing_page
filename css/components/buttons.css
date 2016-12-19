@@ -1,0 +1,9 @@
+.btn-transparent {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.btn-transparent:hover{
+  color: rgb(150,150,150);
+  border: 2px solid rgb(170,170,170);
+}
