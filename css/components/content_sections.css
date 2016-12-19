@@ -1,5 +1,6 @@
 .wrapper-white {
   background-color: white;
+  position: relative;
 }
 #how-it-works {
   color: black;
@@ -28,4 +29,9 @@
   line-height: 25px;
   margin-bottom: 0;
 }
-
+#financial-inclusion {
+  color: rgb(210,210,210);
+}
+#financial-inclusion p {
+  color: rgb(180,180,180);
+}
