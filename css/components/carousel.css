@@ -33,3 +33,13 @@
 #looking-bright {
   color: #77C9D4;
 }
+.item {
+  margin: 0 auto;
+}
+.item .outstanding-loans-slide {
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

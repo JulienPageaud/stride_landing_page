@@ -68,20 +68,20 @@ body {
   background: #f7f7f7;
 }
 
-.progress-pie-chart {
+.progress-pie-chart, .progress-pie-chart-green {
   margin: 50px auto 0;
 }
 .progress-pie-chart.blue.gt-50, .progress-pie-chart.blue.ppc-progress-fill {
   background-color: #77C9D4;
 }
 
-.progress-pie-chart.dark-green.gt-50, .progress-pie-chart.dark-green.ppc-progress-fill {
+.progress-pie-chart-green.gt-50-green, .progress-pie-chart-green.ppc-progress-fill-green {
   background-color: #015249;
 }
 .progress-pie-chart.blue .ppc-percents span {
   color: #77C9D4;
 }
-.progress-pie-chart.dark-green .ppc-percents span {
+.progress-pie-chart-green .ppc-percents-green span {
   color: #015249;
 }
 h5.dark-green {
