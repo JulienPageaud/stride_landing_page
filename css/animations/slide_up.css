@@ -11,8 +11,8 @@
 
 @keyframes slideUp {
   from {
-    margin-top: 200%;
-    height: 500%;
+    margin-top: 1000px;
+    height: 300%;
   }
 
   to {
