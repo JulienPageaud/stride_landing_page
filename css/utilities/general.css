@@ -20,3 +20,6 @@
 .container, .row {
   max-width: 100%;
 }
+.top-buffer {
+  margin-top: 50px;
+}

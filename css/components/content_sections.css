@@ -20,6 +20,9 @@
     min-height: 100vh;
   }
 }
+.content-section h2 {
+  color: #015249;
+}
 #footprint h2 {
   color: #A5A5AF;
   text-shadow: 0 1px rgb(180,180,180);
@@ -36,11 +39,16 @@
   margin-bottom: 0;
 }
 #reporting p, #contact p {
-  color: rgb(180,180,180);
+  color: white;
+}
+.features {
+  padding: 50px 0;
+}
+.features img {
+  color: #015249;
+  margin-bottom: 30px;
+  height: 90px;
 }
 .features p {
-  font-size: 15px;
-}
-.content-section h2 {
-  color: #015249;
+  font-size: 14px;
 }
