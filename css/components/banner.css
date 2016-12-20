@@ -2,8 +2,12 @@
   font-size: 50px;
   margin-bottom: 5px;
 }
+.brand-heading {
+  text-align: left !important;
+  margin-bottom: 20px;
+}
 .brand-heading span {
-  opacity: 0.75;
+  opacity: 0.8;
 }
 .brand-heading strong{
   opacity: 0.9;
@@ -26,28 +30,33 @@
 .banner-text {
   font-weight: bolder;
 }
-.brand-heading {
-  text-align: left !important;
-}
+
 #down-arrow{
   position: absolute;
   bottom: 150px;
 }
 #blurred-bar {
-  margin-top: 15px;
-  padding-top: 5px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  padding: 5px 0;
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: url(../../img/banner-background-blurred.jpg) no-repeat;
-  background-position: bottom left;
-  background-size: cover;
+  background-color: rgba(119,201,212,0.5);
 }
+
 #blurred-bar p {
   margin-bottom: 5px;
 }
 .partners h4 {
   margin: 10px auto;
 }
-
+@media (min-width: 768px){
+  .brand-heading {
+    margin-bottom: 100px;
+  }
+  #blurred-bar {
+    background: url(../../img/banner-background-blurred.jpg) no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+  }
+}
