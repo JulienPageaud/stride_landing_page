@@ -51,6 +51,10 @@ a:focus {
   font-weight: 400;
 }
 .navbar-custom {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
@@ -102,6 +106,10 @@ a:focus {
 }
 @media (min-width: 768px) {
   .navbar-custom {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;

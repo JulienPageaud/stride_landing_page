@@ -1,6 +1,14 @@
 .logo {
-  height: 30px;
-  transition: opacity 0.1s;
+  height: 20px;
+  transition: opacity 0.3s;
+  margin: 5px 0;
+}
+@media (min-width: 990px){
+  .logo {
+    height: 34px;
+    transition: opacity 0.3s;
+    margin: 5px 0;
+  }
 }
 .logo:hover {
   opacity: 0.6;
