@@ -162,12 +162,17 @@ a:focus {
   margin-top: 15px;
   padding: 7px 16px;
   border-radius: 100% !important;
-  font-size: 60px;
+  font-size: 30px;
   color: white;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+}
+@media (min-width: 768px) {
+  .btn-circle {
+    font-size: 60px;
+  }
 }
 .btn-circle:hover,
 .btn-circle:focus {
@@ -305,6 +310,12 @@ footer ul {
 footer li {
   margin-left: 0;
   list-style: none;
+}
+@media (max-width: 768px) {
+  .footer-section {
+    margin: 5px 0;
+    border-bottom: 1px solid rgba(40, 40, 40, 0.4);
+  }
 }
 ::-moz-selection {
   text-shadow: none;

@@ -54,17 +54,22 @@
   color: white;
 }
 .banner-icons{
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 5px;
   text-shadow: 7px 5px 13px rgba(250,250,250,0.5);
 }
 .banner-text {
   font-weight: bolder;
 }
-
-#down-arrow{
+#down-arrow {
   position: absolute;
-  bottom: 150px;
+  bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  #down-arrow{
+    bottom: 150px;
+  }
 }
 #blurred-bar {
   margin-top: 10px;
@@ -75,8 +80,9 @@
   background-color: rgba(119,201,212,0.5);
 }
 
-#blurred-bar p {
-  margin-bottom: 5px;
+#blurred-bar p, h4 {
+  margin-bottom: 0;
+  font-size: 15px;
 }
 .partners h4 {
   margin: 10px auto;
@@ -85,9 +91,15 @@
   .brand-heading {
     margin-bottom: 100px;
   }
+  .banner-icons {
+    font-size: 60px;
+  }
   #blurred-bar {
     background: url(../../img/banner-background-blurred.jpg) no-repeat;
     background-position: bottom left;
     background-size: cover;
+  }
+  #blurred-bar p {
+    margin-bottom: 5px;
   }
 }
