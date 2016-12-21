@@ -4,10 +4,12 @@
   margin: 10px 0;
   max-width: 50%;
   margin: 10px auto;
+  font-size: 15px;
 }
 @media (min-width: 780px) {
   .btn-transparent {
     min-width: 30%;
+    font-size: 20px;
   }
 }
 .btn-transparent:hover{
