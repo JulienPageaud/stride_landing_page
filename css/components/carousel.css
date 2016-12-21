@@ -31,7 +31,7 @@
   color: #015249;
 }
 #how-it-works-carousel .carousel-indicators {
-  bottom: 10px;
+  bottom: 20px;
 }
 .carousel-indicators > li {
   border: 1px solid rgb(120,120,120);
