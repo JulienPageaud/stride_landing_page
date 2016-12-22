@@ -56,7 +56,7 @@
 .banner-icons{
   font-size: 30px;
   margin-bottom: 5px;
-  text-shadow: 7px 5px 13px rgba(250,250,250,0.5);
+  text-shadow: 2px 3px 18px rgba(250,250,250,0.5);
 }
 .banner-text {
   font-weight: bolder;
@@ -95,7 +95,11 @@
     font-size: 60px;
   }
   #blurred-bar {
-    background: url(../../img/banner-background-blurred.jpg) no-repeat;
+    background: linear-gradient(135deg,
+      rgba(20,140,110,0.2) 0%, rgba(44,133,110,0.3) 54%,
+      rgba(51,128,94,0.3) 65%, rgba(51,128,94,0.7) 100%),
+      url(../../img/banner-background-blurred.jpg);
+    background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
   }
