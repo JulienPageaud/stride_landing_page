@@ -4,63 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// Radial progress javascript
-$(document).ready(function(){
-
-  var $ppc = $('.progress-pie-chart'),
-    percent = parseInt($ppc.data('percent')),
-    deg = 360*percent/100;
-  if (percent > 50) {
-    $ppc.addClass('gt-50');
-  }
-  $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
-  $('.ppc-percents span').html(percent+'%');
-
-  var ppcBlue = $('.progress-pie-chart.blue'),
-    percentBlue = parseInt(ppcBlue.data('percent')),
-    degBlue = 360*percentBlue/100;
-  if (percentBlue > 50) {
-    ppcBlue.addClass('gt-50');
-  }
-  $('.progress-pie-chart.blue .ppc-progress-fill').css('transform','rotate('+ degBlue +'deg)');
-  $('.progress-pie-chart.blue .ppc-percents span').html(percentBlue+'%');
-
-
-  // Animations
-  $window = $(window)
-  $features = $('.feature')
-  $carousels = $('.carousel')
-  $window.on('scroll', check_if_in_view);
-
-  function check_if_in_view() {
-    var windowHeight = $window.height();
-    var topOfWindow = $window.scrollTop();
-    var bottomOfWindow = (topOfWindow + windowHeight);
-
-    $features.each(function () {
-      var $this = $(this)
-      var thisHeight = $this.outerHeight();
-      var thisTop = $this.offset().top;
-      var thisBottom = (thisTop + thisHeight);
-
-      if ((thisBottom >= topOfWindow) && (thisTop <= bottomOfWindow)) {
-        $this.addClass('slideUp');
-      }
-    });
-
-    $carousels.each(function() {
-      var $element = $(this)
-      var elementHeight = $element.outerHeight();
-      var elementTop = $element.offset().top;
-      var elementBottom = (elementTop + elementHeight);
-
-      if ((elementTop <= bottomOfWindow && elementBottom >= topOfWindow)) {
-        $element.addClass('fadeIn');
-      }
-    });
-  };
-});
-
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
