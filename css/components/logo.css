@@ -7,7 +7,6 @@
   .logo {
     height: 34px;
     transition: opacity 0.3s;
-    margin: 5px 0;
   }
 }
 .logo:hover {

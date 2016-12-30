@@ -18,7 +18,6 @@ $(window).load(function() {
 
       if ((thisBottom >= topOfWindow) && (thisTop <= bottomOfWindow)) {
         $this.addClass('slide');
-        $this.animate();
       }
     });
 
