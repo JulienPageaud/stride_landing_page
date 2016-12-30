@@ -17,7 +17,7 @@ $(window).load(function() {
       var thisBottom = (thisTop + thisHeight);
 
       if ((thisBottom >= topOfWindow) && (thisTop <= bottomOfWindow)) {
-        $this.addClass('slide');
+        $this.addClass('slideUp');
       }
     });
 
