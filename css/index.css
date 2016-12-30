@@ -1,3 +1,5 @@
+@charset "utf-16";
+
 /* Utilities */
 
 @import url('./utilities/general.css');
@@ -12,7 +14,10 @@
 @import url('./components/white-arrow-top.css');
 @import url('./components/radial_progress.css');
 
+@import url('./cloud9carousel.css');
+
 /* Animations */
 
-@import url('./animations/slideUp.css')
-@import url('./animations/fadeIn.css')
+@import url('./animations/slideUp.css');
+@import url('./animations/fadeIn.css');
+

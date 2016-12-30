@@ -62,8 +62,9 @@ p#looking-bright {
 .item {
   margin: 0 auto;
 }
-.item .outstanding-loans-slide {
+.outstanding-loans-slide {
   min-height: 250px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
