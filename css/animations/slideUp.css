@@ -1,17 +1,14 @@
-.slideUp {
-  animation-name: slideUp;
-  -webkit-animation-name: slideUp;
-  -moz-animation-name: slideUp;
-
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
+.slide {
+  animation: slideUpwards 1.5s;
+  -webkit-animation: slideUpwards 1.5s;
+  -moz-animation: slideUpwards 1.5s;
 
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear; /* Safari and Chrome */
   -moz-transition-timing-function: linear;
 }
-@keyframes slideUp {
+
+@keyframes slideUpwards {
   from {
     transform: translateY(100vh);
   }
@@ -20,7 +17,7 @@
   }
 }
 
-@-webkit-keyframes slideUp {
+@-webkit-keyframes slideUpwards {
   from {
     -webkit-transform: translateY(100vh);
   }
@@ -30,7 +27,7 @@
   }
 }
 
-@-moz-keyframes slideUp {
+@-moz-keyframes slideUpwards {
   from {
     -moz-transform: translateY(100vh);
   }

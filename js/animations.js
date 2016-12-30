@@ -1,5 +1,5 @@
 // Animations
-$(document).ready(function() {
+$(window).load(function() {
   $window = $(window)
   $features = $('.feature')
   $carousels = $('.carousel')
@@ -17,7 +17,8 @@ $(document).ready(function() {
       var thisBottom = (thisTop + thisHeight);
 
       if ((thisBottom >= topOfWindow) && (thisTop <= bottomOfWindow)) {
-        $this.addClass('slideUp');
+        $this.addClass('slide');
+        $this.animate();
       }
     });
 
