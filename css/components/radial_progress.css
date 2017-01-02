@@ -1,3 +1,10 @@
+/* PNG Radial images */
+.radial-border {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
 /*Default pie chart*/
 .progress-pie-chart {
   width: 200px;
