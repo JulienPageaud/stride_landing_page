@@ -390,14 +390,14 @@
       options = $.extend( {
         xOrigin: 50,        // null: calculated automatically
         yOrigin: 50,
-        xRadius: 500,
+        xRadius: 400,
         yRadius: null,
         farScale: 0.7,        // scale of the farthest item
         transforms: true,     // enable CSS transforms
         smooth: true,         // enable smooth animation via requestAnimationFrame()
         fps: 30,              // fixed frames per second (if smooth animation is off)
         speed: 2,             // positive number
-        autoPlay: 3,          // [ 0: off | number of items (integer recommended, positive is clockwise) ]
+        autoPlay: 1,          // [ 0: off | number of items (integer recommended, positive is clockwise) ]
         autoPlayDelay: 4000,
         bringToFront: false,
         itemClass: 'cloud9-item',

@@ -65,8 +65,16 @@ p#looking-bright {
 .outstanding-loans-slide {
   min-height: 250px;
   margin-top: 50px;
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .outstanding-loans-slide {
+    margin-left: 0;
+    width: 80%;
+  }
 }
